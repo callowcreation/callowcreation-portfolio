@@ -3,6 +3,8 @@ title: Mobile Tooltip Systems
 stack: Unity, C# & Visual Studio
 slug: mobile-tooltip-systems
 date: 2019-02-24T00:00:00+00:00
+thumbImg: ../images/thumbs/box-ninja-thumb.png
+featuredImg: ../images/featured/box-ninja-banner.png
 ---
 
 **Mobile Tooltip Systems** uses Unity’s Event System to track touches/clicks long press and long click to show a popup tool-tip style message overlaying the screen. The system offers additional functionality for Standalone builds with a Hover to show the tool-tip.

@@ -3,6 +3,8 @@ title: Shoutouts for Streamers
 stack: Angular, Firebase, Twitch API & Heroku
 slug: shoutouts-for-streamers
 date: 2019-10-16T00:00:00+00:00
+thumbImg: ../images/thumbs/box-ninja-thumb.png
+featuredImg: ../images/featured/box-ninja-banner.png
 ---
 
 **Shoutouts for Streamers**

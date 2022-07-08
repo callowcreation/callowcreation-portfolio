@@ -3,6 +3,8 @@ title: Box Ninja
 stack: Unity, C# & Visual Studio
 slug: box-ninja
 date: 2016-03-19T00:00:00+00:00
+thumbImg: ../images/thumbs/box-ninja-thumb.png
+featuredImg: ../images/featured/box-ninja-banner.png
 ---
 
 **Box Ninja**
