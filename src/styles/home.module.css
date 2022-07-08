@@ -16,10 +16,15 @@
 }
 
 .btn {
+    text-decoration: none;
     display: inline-block;
     background: #454432;
     padding: 10px 16px;
     border-radius: 10px;
     margin-top: 20px;
     font-weight: 500;
+}
+
+.btn:hover {
+    background: #353425;
 }
