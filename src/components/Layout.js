@@ -11,7 +11,7 @@ export default function Layout({ children }) {
                 {children}
             </div>
             <footer>
-                <p>Copyright 2022 caLLowCreation - <Link to="/home/app-privacy-policy">Privacy Policy</Link> - <Link to="/home/terms-and-conditions">Terms and Conditions</Link> </p>
+                <p>Copyright 2022 caLLowCreation - <Link to="/home/app-privacy-policy">Privacy Policy</Link> - <Link to="/home/terms-and-conditions">Terms and Conditions</Link> - <Link to="/home/contact-us">Contact Us</Link> </p>
             </footer>
         </div>
     )
