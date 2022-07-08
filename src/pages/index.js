@@ -13,7 +13,7 @@ export default function Home() {
                     <p>Full-Stack Web & Unity Game Developer based in California</p>
                     <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
                 </div>
-                <img src="/banner.png" alt="site banner" style={{maxWidth: '100%'}}/>
+                <img src="/banner.png" alt="site banner" style={{ maxWidth: '100%' }} />
             </section>
         </Layout>
     )
