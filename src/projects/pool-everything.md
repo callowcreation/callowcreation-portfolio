@@ -3,8 +3,8 @@ title: Pool Everything
 stack: Unity, C# & Visual Studio
 slug: pool-everything
 date: 2019-02-24T00:00:00+00:00
-thumbImg: ../images/thumbs/box-ninja-thumb.png
-featuredImg: ../images/featured/box-ninja-banner.png
+thumbImg: ../images/thumbs/pool-everything-thumb.png
+featuredImg: ../images/featured/pool-everything-banner.png
 ---
 
 **Pool Everything™** is a no scripting required object pooling system. Pool Everything™ uses Unity’s component-based system that instantiates all objects identified by the Pool Manager(s) in the scene.
