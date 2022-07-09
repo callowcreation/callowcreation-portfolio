@@ -1,0 +1,38 @@
+.content {
+    text-align: center;
+}
+
+.content > div > h1 {
+    font-size: 900%;
+}
+
+.content > div > p {
+    font-weight: normal;
+}
+
+.content > div > span {
+    font-weight: bolder;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: #454432;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #353425;
+}
