@@ -32,7 +32,7 @@ Over 10 years of experience in professional software development, delivering pro
 **Shoutouts for Streamers**
 <br>&nbsp;&nbsp;&nbsp;&nbsp; This Twitch Extension has gathered over 1 million views, 50 thousand unique interactions, and over 7 million renders with 4 million unique renders.
 
-## Testimonials
+## *"Testimonials"*
 
 **Bitcorn Project**
 

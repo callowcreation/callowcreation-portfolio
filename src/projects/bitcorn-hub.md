@@ -11,4 +11,4 @@ Uses [**Basic Twitch OAuth**](https://github.com/callowcreation/basic-twitch-oau
 
 BITCORNhub is a Twitch bot Used by [MarketTradersTv](https://www.twitch.tv/markettraderstv) (MTTV). The bot allows users to conduct cryptocurrency transactions on the BITCORN blockchain via Twitch chat.
 
-Checkout the ongoing porgress and contributors here on [GitHub](https://github.com/BITCORNProject/BITCORN-Hub).
+Checkout the ongoing progress and contributors here on [GitHub](https://github.com/BITCORNProject/BITCORN-Hub).

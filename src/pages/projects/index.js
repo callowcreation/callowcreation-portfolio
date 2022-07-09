@@ -15,7 +15,7 @@ export default function Projects({ data }) {
                 <h2>Portfolio</h2>
                 <h3>Projects that I have created or worked on.</h3>
                 <div className={styles.projects}>
-                    {projects.map(project => (
+                    {projects.filter(project => project.frontmatter.slug).map(project => (
                         <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
                             <div>
                                 <GatsbyImage image={getImage(project.frontmatter.thumbImg)} alt="site banner" />
