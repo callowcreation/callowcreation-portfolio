@@ -1,0 +1,32 @@
+
+.footer {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: .3fr auto .4fr;
+    grid-gap: 0px;
+    background-color: rgb(92, 97, 50);  
+    background-image: linear-gradient(rgba(106, 112, 54, 0.5), rgb(120, 126, 68), rgba(92, 97, 50, 0.5));
+    clear: both;
+    position: relative;
+    height: 120px;
+    margin-top: 50px;
+    /* top right bottom left */
+    padding: 10px auto;
+}
+
+.logo {
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+
+.information {
+    /* border: 1px solid green; */
+    font-size: smaller;
+    margin: auto;
+}
+
+.copyright {
+    /* border: 1px solid blue; */
+    font-size: smaller;
+    margin: auto;
+}

@@ -27,7 +27,7 @@ export const query = graphql`
     query Banner {
         file(relativePath: {eq: "banner.png"}) {
             childImageSharp {
-                gatsbyImageData
+                gatsbyImageData(layout: CONSTRAINED)
             }
         }
     }
