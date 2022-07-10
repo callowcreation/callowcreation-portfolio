@@ -7,4 +7,6 @@ thumbImg: ../images/thumbs/youtube-chatbot-thumb.png
 featuredImg: ../images/featured/youtube-chatbot-banner.png
 ---
 
+This chatbot is a YouTube bot that allows users to conduct cryptocurrency transactions on a blockchain via YouTube chat.
+
 Checkout it out here on [GitHub](https://github.com/callowcreation/youtube-chatbot).
