@@ -20,7 +20,7 @@ export default function Social() {
 
     const TwitchIcon = () => (
         <Icon>
-            <img alt="Twitch Social Icon" src={data.file.childImageSharp.gatsbyImageData.images.fallback.src} />
+            <img alt="Twitch Social Icon" src={data.file.childImageSharp.gatsbyImageData.images.fallback.src} width={22} height={22} />
         </Icon>
     )
 

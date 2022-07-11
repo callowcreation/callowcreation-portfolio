@@ -12,9 +12,9 @@ export default function Home({ data }) {
         <Layout>
             <section className={styles.header}>
                 <div>
-                    <h2>Software Developer</h2>
+                    <h3>Software Developer</h3>
                     <h3>Game Developer</h3>
-                    <p>Full-Stack Web & Unity Game Developer based in California</p>
+                    <p>I am Jones a full-stack web & Unity game developer based in California, USA.</p>
                     <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
                 </div>
                 <GatsbyImage image={image} alt="site banner" />
