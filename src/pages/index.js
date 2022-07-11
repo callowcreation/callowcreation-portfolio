@@ -6,8 +6,6 @@ import * as styles from '../styles/home.module.css'
 
 export default function Home({ data }) {
     
-    const image = getImage(data.file)
-
     return (
         <Layout>
             
@@ -18,7 +16,6 @@ export default function Home({ data }) {
                     <p>I am Jones a full-stack web & Unity game developer based in California, USA.</p>
                     <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
                 </div>
-                {/* <GatsbyImage image={image} alt="site banner" /> */}
                 <StaticImage src='../images/banner.png' placeholder='blurred' />
             </section>
         </Layout>
