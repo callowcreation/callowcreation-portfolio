@@ -21,7 +21,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.logo}>
-                <p><Link to="/"><GatsbyImage image={logoImage} alt="site footer logo" /></Link></p>
+                <p><Link to="/"><GatsbyImage image={logoImage} alt="Site Footer Logo" /></Link></p>
             </div>
             <div className={styles.information}>
                 <Social />

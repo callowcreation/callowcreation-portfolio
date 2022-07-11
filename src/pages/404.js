@@ -12,10 +12,10 @@ export default function NotFound(props) {
                     <h1>404</h1>
                     <p>Sorry, the page</p>
                     <span>{props.location.href}</span>
-                    <p>doesn't exist.</p>
+                    <p>was not found</p>
                 </div>
                 <div className={styles.buttons}>
-                    <a className={styles.btn} onClick={() => navigate(-1)}> Go Back </a>
+                    <Link className={styles.btn} onClick={() => navigate(-1)} to=""> Go Back </Link>
                     <Link className={styles.btn} to="/"> Go Home </Link>
                 </div>
             </section>
