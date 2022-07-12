@@ -4,7 +4,7 @@ import { navigate, Link } from "gatsby";
 import * as styles from '../styles/not-found.module.css'
 
 export default function NotFound(props) {
-    console.log({props})
+    
     return (
         <Layout>
             <section className={styles.content}>

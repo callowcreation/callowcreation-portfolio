@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 import * as styles from '../styles/project-details.module.css'
 
 export default function ProjectDetails({ data }) {
-    console.log(data)
 
     const { html } = data.markdownRemark
     const { title, stack, featuredImg } = data.markdownRemark.frontmatter

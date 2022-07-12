@@ -3,6 +3,7 @@ import Layout from '../../components/Layout'
 import * as styles from '../../styles/contact-us.module.css'
 
 export default function ContactUs() {
+    
     return (
         <Layout>
             <div className={styles.contact}>

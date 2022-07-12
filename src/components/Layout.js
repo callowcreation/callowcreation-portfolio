@@ -4,6 +4,7 @@ import Footer from './Footer'
 import '../styles/global.css'
 
 export default function Layout({ children }) {
+    
     return (
         <>
             <div className="layout">
@@ -15,4 +16,5 @@ export default function Layout({ children }) {
             <Footer />
         </>
     )
+
 }
