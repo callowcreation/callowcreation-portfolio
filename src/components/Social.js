@@ -36,7 +36,7 @@ export default function Social() {
         <div>
             <Grid container direction="row" spacing={1} alignContent="center" justifyContent="center">
                 {socialItems.map(item => (
-                    <Grid item>
+                    <Grid item key={item.alt.replace(' ', '_')}>
                         <Link href={item.url} target="_blank" rel="noreferrer">
                             <IconButton aria-label={item.alt}>
                                 <item.icon />
