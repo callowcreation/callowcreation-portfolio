@@ -21,11 +21,11 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.logo}>
-                <p><Link to="/"><GatsbyImage image={logoImage} alt="Site Footer Logo" /></Link></p>
+                <><Link to="/"><GatsbyImage image={logoImage} alt="Site Footer Logo" /></Link></>
             </div>
             <div className={styles.information}>
                 <Social />
-                <p><Link to="/home/app-privacy-policy">Privacy Policy</Link> - <Link to="/home/terms-and-conditions">Terms and Conditions</Link> - <Link to="/home/contact-us">Contact Us</Link></p>
+                <><Link to="/home/app-privacy-policy">Privacy Policy</Link> - <Link to="/home/terms-and-conditions">Terms and Conditions</Link> - <Link to="/home/contact-us">Contact Us</Link></>
             </div>
             <div className={styles.copyright}>
                 <p>© 2022 caLLowCreation</p>

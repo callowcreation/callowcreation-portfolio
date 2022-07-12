@@ -41,7 +41,9 @@ export const query = graphql`
                     slug
                     thumbImg {
                         childImageSharp {
-                            gatsbyImageData
+                            gatsbyImageData(
+                                placeholder: BLURRED
+                            )
                         }
                     }
                 }
