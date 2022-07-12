@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 
 export default function TermsAndConditions() {
+
     return (
         <Layout>
             <h1>Terms and Conditions</h1>
@@ -88,4 +89,5 @@ export default function TermsAndConditions() {
             </ul>
         </Layout>
     )
+    
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage  } from 'gatsby-plugin-image'
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
 
 export default function Home({ data }) {
     
+    const image = getImage(data.file)
+
     return (
         <Layout>
             <section className={styles.header}>
@@ -15,7 +17,7 @@ export default function Home({ data }) {
                     <p>I am Jones a full-stack web & Unity game developer based in California, USA.</p>
                     <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>
                 </div>
-                <StaticImage src='../images/banner.png' placeholder='blurred' alt='home page image' />
+                <GatsbyImage image={image} alt="site banner" />
             </section>
         </Layout>
     )
@@ -25,7 +27,10 @@ export const query = graphql`
     query Banner {
         file(relativePath: {eq: "banner.png"}) {
             childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED)
+                gatsbyImageData(
+                    placeholder: BLURRED
+                    width: 900
+                )
             }
         }
     }

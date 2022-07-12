@@ -16,8 +16,8 @@ export default function Footer() {
         }
     `)
 
-    console.log(data)
     const logoImage = getImage(data.file)
+    
     return (
         <footer className={styles.footer}>
             <div className={styles.logo}>
